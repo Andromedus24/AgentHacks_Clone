@@ -1,0 +1,32 @@
+financial-ai-analyzer/
+├── backend/
+│   ├── src/
+│   │   ├── index.js
+│   │   ├── controllers/
+│   │   │   └── analysisController.js
+│   │   ├── services/
+│   │   │   ├── llmClient.js
+│   │   │   └── parser.js
+│   │   ├── utils/
+│   │   │   └── validation.js
+│   │   └── config/
+│   │       └── index.js
+│   ├── tests/
+│   │   └── analysis.test.js
+│   ├── package.json
+│   └── .env.example
+├── frontend/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   ├── FileUpload.js
+│   │   │   ├── AnalysisResults.js
+│   │   │   └── KPICards.js
+│   │   └── services/
+│   │       └── api.js
+│   ├── package.json
+│   └── public/
+├── docker-compose.yml
+├── Dockerfile.backend
+├── Dockerfile.frontend
+└── README.md
